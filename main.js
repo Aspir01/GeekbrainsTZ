@@ -4,7 +4,7 @@ const ul = document.querySelector('.nav-ul');
 svg.style.display = 'none';
 
 window.addEventListener('resize', () => {
-    if (window.innerWidth < 900) {
+    if (window.innerWidth < 1100) {
         svg.style.display = 'block';
         svg.style.position = 'absolute'
         svg.style.top = '38px'
